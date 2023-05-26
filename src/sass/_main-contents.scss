@@ -1,0 +1,136 @@
+.main-contents {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "image" "contents";
+  background-color: var(--white);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  @media screen and (min-width: $bp-medium) {
+    max-width: 1000px;
+    padding: 1rem;
+    gap: 2rem;
+
+    border-radius: 30px;
+    grid-template-columns: 26rem 20rem;
+    grid-template-areas: "contents image";
+  }
+
+  &__illustration {
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+
+      @media screen and (min-width: $bp-medium) {
+        content: url(../assets/images/illustration-sign-up-desktop.svg);
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .info-section {
+    grid-area: contents;
+    padding: 1.5rem;
+
+    @media screen and (min-width: $bp-medium) {
+      padding-left: 2rem;
+    }
+
+    &__heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+
+      @media screen and (min-width: $bp-medium) {
+        font-size: 3.5rem;
+      }
+    }
+
+    &__feature-heading {
+      margin-bottom: 1rem;
+    }
+
+    &__features {
+      margin-bottom: 2rem;
+      > * {
+        margin-bottom: 0.5rem;
+        padding-left: 2rem;
+        position: relative;
+
+        &::before {
+          content: url(../assets/images/icon-list.svg);
+          position: absolute;
+          top: 0.1rem;
+          left: 0;
+          width: 0.4rem;
+        }
+      }
+    }
+
+    ///////////////form
+    .form {
+      .label-and-message {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+
+        .error-message {
+          color: var(--tomato);
+        }
+      }
+
+      .input-email {
+        border: 1px solid var(--grey);
+        width: 100%;
+        overflow: hidden;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        outline: none;
+
+        &:focus,
+        &:hover {
+          border-color: var(--charcoal-grey);
+        }
+      }
+
+      .btn-submit {
+        background-image: linear-gradient(
+          to right,
+          var(--dark-slate-grey),
+          var(--pinkish),
+          var(--tomato)
+        );
+
+        background-size: 1000%;
+        width: 100%;
+        padding: 1rem;
+        color: var(--white);
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        transition: background-position ease 0.3s;
+
+        &:hover {
+          background-position: 50% 0;
+        }
+      }
+    }
+  }
+}

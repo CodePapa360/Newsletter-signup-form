@@ -1,13 +1,35 @@
 :root {
+  --tomato: hsl(4, 100%, 67%);
+  --pinkish: hsl(342, 100%, 60%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+$bp-medium: 850px;
+
+::selection {
+  background-color: var(--tomato);
+  color: var(--white);
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: var(--dark-slate-grey);
+
+  @media screen and (min-width: $bp-medium) {
+    background-color: var(--dark-slate-grey);
+  }
 }
 
 .footer {
-  margin-top: auto;
   padding: 1rem;
 }

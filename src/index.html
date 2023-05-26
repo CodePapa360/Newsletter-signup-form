@@ -20,11 +20,14 @@
       content="Newsletter sign-up form with success message solution. A dynamic Newsletter sign-up form with validation and success message with HTML, Sass, and JavaScript. The solution includes responsive design and interactive features. Users can submit their email, validate inputs, and receive a success message."
     />
 
-    <meta property="og:image" content="" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/CodePapa360/Newsletter-signup-form/main/screenshots/Newsletter-signup-form-with-success-message-screenshot-codepapa360.png"
+    />
 
     <meta
       property="og:url"
-      content="https://newsletter-signup-form-with-success-message-codepapa360.vercel.app/"
+      content="https://newsletter-signup-form-codepapa360.netlify.app/"
     />
 
     <meta name="author" content="Alamin | CodePapa360" />
@@ -43,7 +46,7 @@
 
     <meta
       name="twitter:site"
-      content="@https://newsletter-signup-form-with-success-message-codepapa360.vercel.app/"
+      content="@https://newsletter-signup-form-codepapa360.netlify.app/"
     />
 
     <meta
@@ -51,7 +54,10 @@
       content="Newsletter sign-up form with success message solution. A dynamic Newsletter sign-up form with validation and success message with HTML, Sass, and JavaScript. The solution includes responsive design and interactive features. Users can submit their email, validate inputs, and receive a success message."
     />
 
-    <meta name="twitter:image" content="" />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/CodePapa360/Newsletter-signup-form/main/screenshots/Newsletter-signup-form-with-success-message-screenshot-codepapa360.png"
+    />
 
     <meta
       name="twitter:image:alt"
@@ -71,36 +77,81 @@
     </title>
   </head>
   <body>
-    <textarea>
+    <main class="main-contents">
+      <div class="main-contents__illustration">
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="Sign up illustration"
+        />
+      </div>
 
-  <!-- Sign-up form start -->
+      <section class="info-section">
+        <h1 class="info-section__heading">Stay updated!</h1>
+        <p class="info-section__feature-heading">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul class="info-section__features">
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
 
-  Stay updated!
+        <form class="form" action="#">
+          <div class="label-and-message">
+            <label class="form-label" for="email">Email address</label>
+            <p class="error-message">Valid email required</p>
+          </div>
 
-  Join 60,000+ product managers receiving monthly updates on:
+          <input
+            class="input-email"
+            type="email"
+            id="email"
+            placeholder="email@company.com"
+          />
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+          <button class="btn btn-submit" type="submit">
+            Subscribe to monthly newsletter
+          </button>
+        </form>
+      </section>
 
-  Email address
-  email@company.com
+      <!-- <section>
+        <div>
+          <img src="./assets/images/icon-success.svg" alt="Success icon" />
+          <h1>Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to ash@loremcompany.com. Please
+            open it and click the button inside to confirm your subscription.
+          </p>
+        </div>
 
-  Subscribe to monthly newsletter
+        <button type="button">Dismiss message</button>
+      </section> -->
+    </main>
 
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-</textarea
-    >
+    <footer class="footer">
+      <div class="attribution-wrapper">
+        <p class="attribution">
+          <span>
+            Coded by
+            <a
+              class="attb-link"
+              href="https://twitter.com/CodePapa360"
+              target="_blank"
+              >Alamin</a
+            >
+          </span>
+          <span>
+            Challenge by
+            <a
+              class="attb-link attb-fem"
+              href="https://www.frontendmentor.io/profile/CodePapa360"
+              target="_blank"
+              >Frontend Mentor</a
+            >
+          </span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

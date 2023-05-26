@@ -1,4 +1,5 @@
 <h1 align="center">Newsletter sign-up form with success message</h1>
+
 <div align="center">
 
 Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa360)
@@ -9,7 +10,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 <div align="center">
 
 <!-- Live -->
-<a href="https://newsletter-signup-form-with-success-message-codepapa360.vercel.app/">
+<a href="https://newsletter-signup-form-codepapa360.netlify.app/">
     <img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?style=for-the-badge&logo=live360&labelColor=666666" alt="Live Demo" />
 </a>
 
@@ -24,12 +25,12 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Status -->
 
-<img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" />
+<img src="https://img.shields.io/badge/Status-In Progress-red?style=flat" alt="Status" />
 
 <!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
 
 <!-- Liceensee -->
-<a href="https://github.com/CodePapa360/Newsletter-sign-up-form-with-success-message/blob/main/LICENSE.md">
+<a href="https://github.com/CodePapa360/Newsletter-signup-form/blob/main/LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
 </a>
 
@@ -37,14 +38,14 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!--Project Brief -->
 <div align="center">
-
+This project showcases a user-friendly form that allows users to submit their email, validates inputs, and displays success or error messages. The project includes responsive design and interactive features for a seamless user experience.
 </div>
 
 </p>
 
-<a align="center" href="https://newsletter-signup-form-with-success-message-codepapa360.vercel.app/">
+<a align="center" href="https://newsletter-signup-form-codepapa360.netlify.app/">
 
-![Screenshot](./screenshots/Newsletter-sign-up-form-with-success-message-screenshot-codepapa360.png)
+![Screenshot](./screenshots/Newsletter-signup-form-with-success-message-screenshot-codepapa360.png)
 
 </a>
 
@@ -52,9 +53,13 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 Users should be able to:
 
-- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
-- View the optimal layout for the content depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ## Built with
 
@@ -71,7 +76,7 @@ Users should be able to:
 - Clone this repo:
 
 ```sh
-git clone https://github.com/CodePapa360/Newsletter-sign-up-form-with-success-message.git
+git clone https://github.com/CodePapa360/Newsletter-signup-form.git
 ```
 
 - Install dependencies:
@@ -113,4 +118,4 @@ Special thanks to Frontend Mentor for providing such an amazing platform to prac
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Newsletter-sign-up-form-with-success-message/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
+This project is licensed under the [MIT](https://github.com/CodePapa360/Newsletter-signup-form/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
