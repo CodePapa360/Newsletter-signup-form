@@ -29,7 +29,9 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 <!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
 
 <!-- Liceensee -->
-<img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
+<a href="https://github.com/CodePapa360/Newsletter-sign-up-form-with-success-message/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
+</a>
 
 </div>
 
