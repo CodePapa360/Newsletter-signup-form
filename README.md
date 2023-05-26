@@ -36,6 +36,8 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 <!--Project Brief -->
 <div align="center">
 
+</div>
+
 </p>
 
 <a align="center" href="https://newsletter-signup-form-with-success-message-codepapa360.vercel.app/">
