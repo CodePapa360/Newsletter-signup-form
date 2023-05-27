@@ -16,7 +16,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Frontend Mentor -->
 <a href="#">
-    <img src="https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
+    <img src="https://img.shields.io/badge/Frontend mentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
 </a>
 
 </div>
@@ -25,9 +25,9 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Status -->
 
-<img src="https://img.shields.io/badge/Status-In Progress-red?style=flat" alt="Status" />
+<!-- <img src="https://img.shields.io/badge/Status-In Progress-red?style=flat" alt="Status" /> -->
 
-<!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
 
 <!-- Liceensee -->
 <a href="https://github.com/CodePapa360/Newsletter-signup-form/blob/main/LICENSE.md">
@@ -35,6 +35,8 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </a>
 
 </div>
+
+<br>
 
 <!--Project Brief -->
 <div align="center">
