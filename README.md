@@ -15,7 +15,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </a>
 
 <!-- Frontend Mentor -->
-<a href="#">
+<a href="https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-woX-WCWAnC">
     <img src="https://img.shields.io/badge/Frontend mentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
 </a>
 
@@ -26,7 +26,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 <!-- Status -->
 
 <!-- <img src="https://img.shields.io/badge/Status-In Progress-red?style=flat" alt="Status" /> -->
-<a href="">
+<a href="#">
     <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
 </a>
 <!-- Liceensee -->
