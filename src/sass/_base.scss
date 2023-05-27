@@ -1,5 +1,6 @@
 :root {
   --tomato: hsl(4, 100%, 67%);
+  --tomato-pale: hsla(4, 100%, 67%, 0.1);
   --pinkish: hsl(342, 100%, 60%);
   --dark-slate-grey: hsl(234, 29%, 20%);
   --charcoal-grey: hsl(235, 18%, 26%);
@@ -7,15 +8,11 @@
   --white: hsl(0, 0%, 100%);
 }
 
-$bp-medium: 850px;
+$bp-medium: 53em;
 
 ::selection {
   background-color: var(--tomato);
   color: var(--white);
-}
-
-html {
-  font-size: 16px;
 }
 
 body {
@@ -30,6 +27,14 @@ body {
   }
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+}
+
 .footer {
+  margin-top: auto;
   padding: 1rem;
 }

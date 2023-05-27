@@ -1,0 +1,49 @@
+.success-view {
+  display: flex;
+  justify-content: center;
+  min-height: 88vh;
+  padding: 1rem;
+
+  @media screen and (min-width: $bp-medium) {
+    min-height: 100%;
+  }
+
+  .success-contents {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-medium) {
+      max-width: 30rem;
+      border-radius: 20px;
+      padding: 3rem 3rem;
+    }
+  }
+
+  .success-info {
+    margin-top: auto;
+
+    img {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    .user-email-output {
+      font-weight: 700;
+    }
+  }
+
+  .btn {
+    margin-top: auto;
+  }
+}

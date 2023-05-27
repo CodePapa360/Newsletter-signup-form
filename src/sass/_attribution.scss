@@ -7,7 +7,7 @@
 
   .attribution {
     --clr-attb-primary: yellow;
-    --clr-attb-secondary: #adad00;
+    --clr-attb-secondary: #caca00;
     --fs-attb: calc(1rem - 2px);
     text-align: center;
     line-height: 1.4;
@@ -24,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
     @media screen and (min-width: 375px) {
       flex-direction: row;
